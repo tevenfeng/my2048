@@ -1,0 +1,25 @@
+D:\编程\Visual C#\my2048\bin\Debug\my2048.exe.config
+D:\编程\Visual C#\my2048\bin\Debug\my2048.exe
+D:\编程\Visual C#\my2048\bin\Debug\my2048.pdb
+D:\编程\Visual C#\my2048\obj\Debug\my2048.csprojResolveAssemblyReference.cache
+D:\编程\Visual C#\my2048\obj\Debug\my2048.mainForm.resources
+D:\编程\Visual C#\my2048\obj\Debug\my2048.Properties.Resources.resources
+D:\编程\Visual C#\my2048\obj\Debug\my2048.csproj.GenerateResource.Cache
+D:\编程\Visual C#\my2048\obj\Debug\my2048.exe
+D:\编程\Visual C#\my2048\obj\Debug\my2048.pdb
+D:\编程\Visual C#\my2048\obj\Debug\my2048.my2048MessageBox.resources
+D:\编程\Visual C#\my2048\obj\Debug\my2048.Game_Over.resources
+E:\编程\Visual C#\my2048\bin\Debug\my2048.exe.config
+E:\编程\Visual C#\my2048\obj\Debug\my2048.exe
+E:\编程\Visual C#\my2048\obj\Debug\my2048.pdb
+E:\编程\Visual C#\my2048\bin\Debug\my2048.exe
+E:\编程\Visual C#\my2048\bin\Debug\my2048.pdb
+E:\编程\Visual C#\my2048\obj\Debug\my2048.csprojResolveAssemblyReference.cache
+E:\编程\Visual C#\my2048\obj\Debug\my2048.Game_Over.resources
+E:\编程\Visual C#\my2048\obj\Debug\my2048.mainForm.resources
+E:\编程\Visual C#\my2048\obj\Debug\my2048.my2048MessageBox.resources
+E:\编程\Visual C#\my2048\obj\Debug\my2048.Properties.Resources.resources
+E:\编程\Visual C#\my2048\obj\Debug\my2048.csproj.GenerateResource.Cache
+E:\Coding\C#\my2048\bin\Debug\my2048.exe.config
+E:\Coding\C#\my2048\obj\Debug\my2048.exe
+E:\Coding\C#\my2048\obj\Debug\my2048.pdb
