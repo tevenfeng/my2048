@@ -23,3 +23,11 @@ E:\编程\Visual C#\my2048\obj\Debug\my2048.csproj.GenerateResource.Cache
 E:\Coding\C#\my2048\bin\Debug\my2048.exe.config
 E:\Coding\C#\my2048\obj\Debug\my2048.exe
 E:\Coding\C#\my2048\obj\Debug\my2048.pdb
+E:\Coding\C#\my2048\bin\Debug\my2048.exe
+E:\Coding\C#\my2048\bin\Debug\my2048.pdb
+E:\Coding\C#\my2048\obj\Debug\my2048.csprojResolveAssemblyReference.cache
+E:\Coding\C#\my2048\obj\Debug\my2048.Game_Over.resources
+E:\Coding\C#\my2048\obj\Debug\my2048.mainForm.resources
+E:\Coding\C#\my2048\obj\Debug\my2048.my2048MessageBox.resources
+E:\Coding\C#\my2048\obj\Debug\my2048.Properties.Resources.resources
+E:\Coding\C#\my2048\obj\Debug\my2048.csproj.GenerateResource.Cache

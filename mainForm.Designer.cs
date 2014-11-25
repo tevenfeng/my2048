@@ -55,55 +55,56 @@
             this.label_best.ForeColor = System.Drawing.Color.White;
             this.label_best.Location = new System.Drawing.Point(324, 16);
             this.label_best.Name = "label_best";
-            this.label_best.Size = new System.Drawing.Size(100, 30);
+            this.label_best.Size = new System.Drawing.Size(123, 30);
             this.label_best.TabIndex = 1;
             this.label_best.Text = "BEST";
-            this.label_best.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_best.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_bestScore
             // 
             this.label_bestScore.BackColor = System.Drawing.Color.Gray;
-            this.label_bestScore.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_bestScore.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_bestScore.ForeColor = System.Drawing.Color.White;
             this.label_bestScore.Location = new System.Drawing.Point(324, 46);
             this.label_bestScore.Name = "label_bestScore";
-            this.label_bestScore.Size = new System.Drawing.Size(100, 38);
+            this.label_bestScore.Size = new System.Drawing.Size(123, 38);
             this.label_bestScore.TabIndex = 2;
             this.label_bestScore.Text = "0";
-            this.label_bestScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_bestScore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_current
             // 
             this.label_current.BackColor = System.Drawing.Color.Gray;
             this.label_current.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_current.ForeColor = System.Drawing.Color.White;
-            this.label_current.Location = new System.Drawing.Point(218, 16);
+            this.label_current.Location = new System.Drawing.Point(185, 16);
             this.label_current.Name = "label_current";
-            this.label_current.Size = new System.Drawing.Size(100, 30);
+            this.label_current.Size = new System.Drawing.Size(139, 30);
             this.label_current.TabIndex = 3;
             this.label_current.Text = "SCORE";
+            this.label_current.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label_currentScore
             // 
             this.label_currentScore.BackColor = System.Drawing.Color.Gray;
-            this.label_currentScore.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_currentScore.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_currentScore.ForeColor = System.Drawing.Color.White;
-            this.label_currentScore.Location = new System.Drawing.Point(218, 46);
+            this.label_currentScore.Location = new System.Drawing.Point(185, 46);
             this.label_currentScore.Name = "label_currentScore";
-            this.label_currentScore.Size = new System.Drawing.Size(100, 38);
+            this.label_currentScore.Size = new System.Drawing.Size(141, 38);
             this.label_currentScore.TabIndex = 4;
             this.label_currentScore.Text = "0";
-            this.label_currentScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_currentScore.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Control;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(9, 9);
+            this.label3.Location = new System.Drawing.Point(13, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(193, 86);
+            this.label3.Size = new System.Drawing.Size(148, 64);
             this.label3.TabIndex = 7;
             this.label3.Text = "2048";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -140,13 +141,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "2048";
             this.Load += new System.EventHandler(this.mainForm_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mainForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Board)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-            //
-            //处理按键事件
-            //
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(mainForm_KeyDown);
+
         }
 
         #endregion

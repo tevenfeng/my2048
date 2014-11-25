@@ -35,6 +35,15 @@ namespace my2048
             messageBoxHelp.messageB = "F5:重新开始\r\nF6:截图并保存\r\n↑↓←→：控制方块移动\r\nESC:退出";
             core = new my2048Core();
             core.Reset();
+            if (File.Exists(Directory.GetCurrentDirectory() + "\\settings.ini"))
+            {
+                //FileStream myFileStream = new FileStream(Directory.GetCurrentDirectory() + "\\settings.ini", FileMode.Open, FileAccess.Read);
+                StreamReader myStreamReader = new StreamReader(Directory.GetCurrentDirectory() + "\\settings.ini", Encoding.Default);
+                string line = myStreamReader.ReadLine();
+                core.bestGrade = int.Parse(line);
+                label_bestScore.Text = core.bestGrade.ToString();
+                myStreamReader.Close();
+            }
             drow();
             pictureBox_Board.Refresh();
         }
@@ -59,6 +68,11 @@ namespace my2048
                     mse2.ShowDialog();
                     break;
                 case Keys.Escape:
+                    FileStream myFileStream = new FileStream(Directory.GetCurrentDirectory()+"\\settings.ini",FileMode.Create,FileAccess.Write);
+                    StreamWriter myStreamWriter = new StreamWriter(myFileStream);
+                    myStreamWriter.WriteLine(core.bestGrade);
+                    myStreamWriter.Close();
+                    myFileStream.Close();
                     this.Close();
                     break;
                 case Keys.Up:
@@ -167,7 +181,7 @@ namespace my2048
             if (core.bestGrade < core.grade)                                    //判断本次成绩是否刷新纪录
             {
                 core.bestGrade = core.grade;
-                label_best.Text = core.bestGrade.ToString();
+                label_bestScore.Text = core.bestGrade.ToString();
                 my2048ScreenShot();
                 my2048MessageBox mes3 = new my2048MessageBox();
                 mes3.messageA = "恭喜！";
